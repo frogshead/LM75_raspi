@@ -1,0 +1,10 @@
+[package]
+name = "lm75_raspi"
+version = "0.1.0"
+authors = ["Mikko Viitamäki <mikko.viitamaki@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+lm75 = "0.1.1"
+linux-embedded-hal = "0.2.2"
+
