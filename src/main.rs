@@ -19,7 +19,7 @@ fn main() {
     let address = SlaveAddr::default();
     let mut sensor = Lm75::new(dev, address);
     let temperature = sensor.read_temperature().unwrap();
-    println!("Temperature:  {}", temperature);
+    // println!("Temperature:  {}", temperature);
     let file = OpenOptions::new()
         .write(true)
         .append(true)
