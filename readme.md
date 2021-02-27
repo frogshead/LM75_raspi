@@ -1,7 +1,7 @@
 
 # README
 
-Read LM75 i2c temperature sensor using Raspberry Pi 1 and write time stamp and tem value to csv file.
+Read LM75 i2c temperature sensor using Raspberry Pi 1 and write time stamp and the value to csv file.
 
 To build for RPi 1
 
