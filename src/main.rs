@@ -16,7 +16,7 @@ fn main() {
         let unix_time = SystemTime::now().duration_since(SystemTime::UNIX_EPOCH).unwrap().as_secs();
         // printout as influxdb line protocol
         // https://docs.influxdata.com/influxdb/v1.7/write_protocols/line_protocol_reference/
-        println!("lm75_measurement, name=lm75_kauhajoki temperature={} {}", temperature, unix_time);
+        println!("lm75_measurement,name=lm75_kauhajoki temperature={} {}", temperature, unix_time);
         sleep_ms(1000* 10); //sleep 10s
         
     }
